@@ -42,7 +42,10 @@ h1 {
 }
 
 .info{
-    color: red;
+    color: white;
+    background-color: black;
+    font-size: 15pt;
+    text-align: center;
 }
     
 .footer{
