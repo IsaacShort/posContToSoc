@@ -1,7 +1,38 @@
-p {
-    color: red;
+h1 {
+    text-align: center;
 }
-.nav {
-    color: black;
-    background-color: black;
+
+.p-desc {
+    border: 5px solid grey;
+    text-align: center;
+    text-wrap: balance;
+    font-size: 15px;
+    padding: 1%;
+    margin: 5px;
+  }
+
+.exampleSection h3 {
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    gap: 10px; /* Optional: adds space between children */
+    align-items: center;
+    width: 100vw;
+}
+
+.exampleSection {
+    flex: 1; /* Adjusts the width of exampleSection based on content */
+    border: 5px solid goldenrod;
+    margin: 5px;
+}
+
+.image {
+    flex: 1; /* Adjusts the width of image based on content */
+}
+
+.image img {
+    max-width: 150%;
+    max-height:200%;
 }
