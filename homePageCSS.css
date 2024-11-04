@@ -2,37 +2,20 @@ h1 {
     text-align: center;
 }
 
-.p-desc {
-    border: 5px solid grey;
+.img1 {
+    max-height: 512px;
+}
+
+.info{
+    color: red;
+}
+    
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
     text-align: center;
-    text-wrap: balance;
-    font-size: 15px;
-    padding: 1%;
-    margin: 5px;
-  }
-
-.exampleSection h3 {
-    margin: 5px;
-}
-
-.container {
-    display: flex;
-    gap: 10px; /* Optional: adds space between children */
-    align-items: center;
-    width: 100vw;
-}
-
-.exampleSection {
-    flex: 1; /* Adjusts the width of exampleSection based on content */
-    border: 5px solid goldenrod;
-    margin: 5px;
-}
-
-.image {
-    flex: 1; /* Adjusts the width of image based on content */
-}
-
-.image img {
-    max-width: 150%;
-    max-height:200%;
 }
